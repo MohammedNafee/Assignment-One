@@ -6,42 +6,49 @@
     <title>Contact Me</title>
 </head>
 <body>
-   <h1>Contact Me</h1>
-   <form action="/" method="post">
-    <div>
-        <label for="fname">First Name:</label>
-        <br/>
-        <input id="fname" name="fname" type="text" required/>
-    </div>
-    <br/>
-    <div>
-        <label for="lname">Last Name:</label>
-        <br/>
-        <input id="lname" name="lname" type="text" required/>
-    </div>
-    <br/>
-    <div>
-        <label for="user-email">Email:</label>
-        <br/>
-        <input id="user-email" name="email" type="email" required/>
-    </div>
-    <br/>
-    <div>
-        <label for="message">Your Massage:</label>
-        <br/>
-        <textarea id="message" rows="10" cols="50" required></textarea>
-    </div>
-    <br/>
-    <div>
-        <input type="submit"/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;
-        <input type="reset" />
-    </div>
-   </form> 
+   <footer>
+       <h1>Contact Me</h1>
+   </footer>
+   <main>
+    <!--this section collects data from user-->
+    <section>
+        <form action="/" method="post">
+         <div>
+             <label for="fname">First Name:</label>
+             <br/>
+             <input id="fname" name="fname" type="text" required/>
+         </div>
+         <br/>
+         <div>
+             <label for="lname">Last Name:</label>
+             <br/>
+             <input id="lname" name="lname" type="text" required/>
+         </div>
+         <br/>
+         <div>
+             <label for="user-email">Email:</label>
+             <br/>
+             <input id="user-email" name="email" type="email" placeholder="you@gmail.com" required/>
+         </div>
+         <br/>
+         <div>
+             <label for="message">Your Massage:</label>
+             <br/>
+             <textarea id="message" name="message" placeholder="Enter your message here!" rows="10" cols="50" required></textarea>
+         </div>
+         <br/>
+         <div>
+             <input type="submit"/>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;
+             <input type="reset" />
+         </div>
+        </form> 
+    </section>
+   </main>
 </body>
 </html>
